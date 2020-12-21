@@ -30,6 +30,7 @@ console.log('Отношение:' + ' ' + (otn))
 
 // Задание 3
 
+console.log('Задание 3')
 const celcius = 18
 const fahrenheit = 60
 
@@ -38,5 +39,13 @@ console.log(fahrenheit + '\xB0F' + ' соответствует ' + Math.round((
 
 // Задание 4
 
+console.log('Задание 4')
+let year = window.prompt(`Введите год`);
+
+if (year % 4 == 0 && year % 100 != 0 && year % 400 == 0) {
+    alert ('True')
+} else {
+    alert ('False')
+}
 
 // Задание 5
