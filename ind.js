@@ -15,6 +15,18 @@ console.log(bull + null) //boolean + null == int
 
 // Задание 2
 
+console.log('Задание 2')
+let a = 5
+let b = 10
+const perimetr = 2*(a + b)
+const ploshad = a * b
+const otn = perimetr / ploshad
+
+console.log('Длина a =' + ' ' + a)
+console.log('Длина b =' + ' ' + b)
+console.log('Периметр:' + ' ' + (perimetr))
+console.log('Площадь:' + ' ' + (ploshad))
+console.log('Отношение:' + ' ' + (otn))
 
 // Задание 3
 
