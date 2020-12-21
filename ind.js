@@ -49,3 +49,12 @@ if (year % 4 == 0 && year % 100 != 0 && year % 400 == 0) {
 }
 
 // Задание 5
+
+console.log('Задание 5')
+let c = Number(prompt(`Первое число`));
+let d = Number(prompt(`Второе число`));
+if (c == 10 || d == 10 || c + d == 10) {
+    console.log ('True')
+} else {
+    console.log ('False')
+}
