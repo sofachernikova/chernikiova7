@@ -42,8 +42,10 @@ console.log(fahrenheit + '\xB0F' + ' соответствует ' + Math.round((
 console.log('Задание 4')
 let year = window.prompt(`Введите год`);
 
-if (year % 4 == 0 && year % 100 != 0 && year % 400 == 0) {
+if (year % 4 == 0 && year % 100 != 0) {
     alert ('True')
+} else if (year % 400 == 0) {
+
 } else {
     alert ('False')
 }
