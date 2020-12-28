@@ -31,11 +31,11 @@ console.log('Отношение:' + ' ' + (otn))
 // Задание 3
 
 console.log('Задание 3')
-const celcius = 18
-const fahrenheit = 60
+let celcius = 18
+let fahrenheit = 60
 
-console.log(celcius + '\xB0C' + ' соответствует ' + (1.8 * celcius + 32) + '\xB0F')
-console.log(fahrenheit + '\xB0F' + ' соответствует ' + Math.round((fahrenheit - 32) / 1.8) + '\xB0C')
+console.log(`${celcius} C\u{00B0} соответствует ${celcius * 1.8 + 32} F\u{00B0}`);
+console.log(`${fahrenheit} F\u{00B0} соответствует ${(fahrenheit - 32) / 1.8} C\u{00B0}`)
 
 // Задание 4
 
